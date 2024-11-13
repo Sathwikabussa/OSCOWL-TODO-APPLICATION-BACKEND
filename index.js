@@ -10,10 +10,10 @@ dotenv.config();
 const app = express();
 connectDB();
 
-// Allow requests from http://localhost:3004 (your frontend URL)
+
 app.use(cors({
     origin: 'https://bussasathwikatodoapplication.netlify.app',
-    credentials: true // if your frontend needs cookies or authorization headers
+    credentials: true 
   }));
   
 // Middleware
