@@ -12,7 +12,7 @@ connectDB();
 
 // Allow requests from http://localhost:3004 (your frontend URL)
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://bussasathwikatodoapplication.netlify.app',
     credentials: true // if your frontend needs cookies or authorization headers
   }));
   
